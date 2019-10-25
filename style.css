@@ -39,7 +39,7 @@ div {
 }
 
 
-#twoiframes {
+.twoiframes {
     max-width: 2000px;
     max-height: 1000px
     background-color: white;
