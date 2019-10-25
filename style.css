@@ -48,6 +48,4 @@ div {
     right: 0;
     bottom: 0;
     display:flex;
-    position: relative;
-    padding-bottom: 50%;
 }
