@@ -20,15 +20,15 @@ html,body{
     float: left;
 }
 
-@media (max-width:1600px) {
+@media (max-width:1200px) {
 	.resp-iframe {
-    width: 800px;
+    width: 600px;
     float: unset;
 }
 	.resp-container {
     position: relative;
     overflow: hidden;
-    width: 800px;
+    width: 600px;
     margin: auto !important;
 }}
 
