@@ -5,6 +5,34 @@ html,body{
   padding:5px;
 }
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.resp-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(50% -16px);
+    height: 100%;
+    border: 0;
+    float: left;
+}
+
+@media (max-width:1600px) {
+	.resp-iframe {
+    width: 800px;
+    float: unset;
+}
+	.resp-container {
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    margin: auto !important;
+}}
+
+
 h1 {
   font-size: 40px;
 }
@@ -22,26 +50,3 @@ div {
   overflow: auto;
   font-size: 22px;
 }
-
-
-.box{
-    float:left;
-    margin-right:20px;
-    display:inline-block
-}
-.clear{
-    clear:both;
-}
-
-.breaking{    
-    width: 95%;
-    word-wrap: break-word;
-}
-.twoiframes {
-    max-width: 2000px;
-    max-height: 1000px;
-    background-color: white;
-    margin: 0px;
-    display:flex;
-}
-
