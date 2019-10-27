@@ -38,11 +38,26 @@ h1 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 26px;
+  font-family: open sans;
+  margin: 0;
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
+  overflow: auto;
+  font-family: open sans;
+  margin: 0;
+}
+
+i {
+  font-family: open sans;
+}
+
+.breaking{    
+    width: 95%;
+    word-wrap: break-word;
+    font-family: open sans;
 }
 
 div {
