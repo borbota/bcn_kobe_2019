@@ -9,6 +9,7 @@ html,body{
 .resp-container {
     position: relative;
     overflow: hidden;
+    max-height: 800px;
 }
 
 .resp-iframe {
@@ -30,6 +31,7 @@ html,body{
     position: relative;
     overflow: hidden;
     width: 600px;
+    max-height: 800px;
     margin: auto !important;
 }}
 
